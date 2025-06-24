@@ -30,7 +30,7 @@ const styles = {
     "inline-block text-primary text-sm font-semibold py-2 border-2 bg-transparent border-primary  rounded-xl hover:text-black",
 
   inputField:
-    "px-3 py-1 bg-white bg-opacity-50 placeholder-gray-700 border-2 border-gray-400 w-full text-white mb-3 focus:bg-opacity-0 focus:placeholder-gray-300",
+    "px-4 py-2 bg-black/20 placeholder-gray-400 border border-gray-500 w-full text-gray-100 mb-4 rounded-md focus:border-primary focus:bg-black/40 focus:outline-none focus:ring-1 focus:ring-primary transition-all duration-300",
 };
 
 export { styles };
