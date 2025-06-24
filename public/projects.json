@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Drivana",
+    "img": "/Projects/craftopia.png",
+    "description": "It is a full stack Next project and an Ai driving car market place.",
+    "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
+    "livelink": "https://drivana-two.vercel.app/",
+    "github": "https://github.com/Meherab151175/Drivana"
+  },
+  {
+    "id": 4,
+    "name": "Toggy World",
+    "img": "/Projects/career-flock.png",
+    "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+    "technologies": "React.js, Bootstrap5, CSS5.",
+    "livelink": "https://toggy-toy.firebaseapp.com/categories/0",
+    "github": "https://github.com/Meherab151175/toggy-toys-client",
+    "server": "https://github.com/Meherab151175/toggy-toys-server"
+  },
+  {
+    "id": 5,
+    "name": "Ema-John",
+    "img": "/Projects/Ema-john.png",
+    "description": "Ema-John is an e-commerce website. Here many products card with image and details information and a Add to cart button can found. In the right side, a sidebar is available. In this sidebar all the calculation is done, which product you add to cart and what's the ammount you have to pay.",
+    "technologies": "React.js, Bootstrap5, CSS5.",
+    "livelink": "https://ema-jhon-with-firebase-a-c91b6.web.app/",
+    "github": "https://github.com/Meherab151175/ema-jhon-with-firebase-auth"
+  },
+  {
+    "id": 6,
+    "name": "Dragon News",
+    "img": "/Projects/knowledge-station.png",
+    "description": "In this website, four blogs can found. Every Blogs has an image, author's image, author's name, publishing date, heading, some tags, and mark as read option. Also every blog has a bookmark icon with timeline about which time will taken fpr reading this blog. In the right side a sidebar here. When a user will visit this site he can mark as read option, and then in the sidebar, the blog will stored.",
+    "technologies": "JavaScript, Bootstrap5, CSS5.",
+    "livelink": "https://the-dragon-news-2776b.web.app/category/0",
+    "github": "https://github.com/Meherab151175/the-news-dragon-client-with-auth",
+    "server": "https://github.com/Meherab151175/the-news-dragon-server"
+  }
+]

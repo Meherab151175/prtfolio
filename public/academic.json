@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "icon" : "academic/Graduate.png" ,
+        "logo" : "academic/IST_LOGO.png",
+        "degree" : "Bachelor of Science in Engineering",
+        "short" : "B.Sc. in (Engg.)",
+        "group" : "Computer Science and Engineering (CSE)",
+        "institute" : "Institute of Science and Technology, Bangladesh",
+        "duration" : "Jan, 2018 - Jan, 2022"
+    },
+    {
+        "id" : 2,
+        "icon" : "academic/paper.png" ,
+        "logo" : "academic/bhola_govt_college_logo.png",
+        "degree" : "Higher Secondary School Certificate",
+        "short" : "H.S.C",
+        "group" : "Science",
+        "institute" : "Bhola Govt College, Bhola",
+        "duration" : "July, 2015 - June, 2017"
+    },
+    {
+        "id" : 3,
+        "icon" : "academic/book.png"  ,
+        "logo" : "academic/chargumany_logo.jpg",
+        "degree" : "Secondary School Certificate",
+        "short" : "S.S.C.",
+        "group" : "Science",
+        "institute" : "Chargumany Secondary School, Bhola",
+        "duration" : "Jan, 2010 - May, 2015"
+    }
+]

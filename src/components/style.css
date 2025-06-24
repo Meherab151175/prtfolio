@@ -1,0 +1,165 @@
+/* Hero */
+.MeherabImage,
+.MeherabImage2 {
+  box-shadow: 0 0 1rem #967af9;
+}
+
+.icon-shadow:hover,
+.shadowButton,
+.serviceBox:hover,
+.service-icon {
+  box-shadow: 0 0 0.5rem #967af9;
+}
+
+.MeherabImage {
+  animation: floatImg 4s ease-in-out infinite;
+}
+@keyframes floatImg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Button */
+.shadowButton {
+  position: relative;
+  overflow: hidden;
+  transition: 0.6s;
+  z-index: 1;
+}
+
+.shadowButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #967af9;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s;
+}
+.shadowButton:hover::before {
+  width: 100%;
+}
+
+/* About me */
+.MeherabImage2 {
+  animation: zoom-in-zoom-out 4s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* Services */
+.serviceBox {
+  transition: transform 0.3s ease-in-out;
+}
+.serviceBox:hover {
+  transform: scale(1.1);
+}
+
+/* Skills */
+.skill {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .back{
+  visibility: hidden;
+  transition: visibility ease-in-out 0.25s;
+} */
+
+.skill-container:hover > .skill {
+  box-shadow: 0 0 1rem #fff;
+  transform: scale(1.2);
+}
+
+/* .skill-container:hover > .back{
+  visibility: visible;
+} */
+
+/* ThreeD */
+.threeD {
+  background-image: url("/src/assets/threedbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hand-icon {
+  animation: floathand 4s ease-in-out infinite;
+}
+@keyframes floathand {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* project */
+.project-img {
+  box-shadow: 5px 5px 10px #000;
+  background-position: top;
+  transition: background-position 15s ease-in-out;
+}
+.project-img:hover {
+  background-position: bottom;
+}
+.project-cart,
+.arrow-box {
+  box-shadow: 0 0 0.25rem white;
+}
+.arrow-box {
+  animation: icon 2s ease infinite;
+}
+@keyframes icon {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.arrow-box:hover {
+  animation-play-state: paused;
+}
+
+/* academic */
+.academic-box {
+  transition: box-shadow 0.3s ease-in-out;
+}
+.academic-box:hover {
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.388);
+}
+
+/* contact */
+.contact {
+  background-image: url("/src/assets/world-connect.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
