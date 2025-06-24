@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 import Meherab from "../assets/Meherab-2.png";
 import { styles } from "../styles";
 import "./style.css";
@@ -29,19 +29,12 @@ const Hero = () => {
               <h1 className={`${styles.heroHeadText} `}>Meherab Hossain</h1>
               <h2 className={`${styles.orangeHeader}`}>
                 I&apos;m a{" "}
-                <Typed
-                  className="text-primary"
-                  strings={[
-                    "Full-stack Developer",
-                    "MERN Developer",
-                    "Front-end Developer",
-                    "React Developer",
-                    "UI Designer",
-                  ]}
-                  typeSpeed={50}
-                  backSpeed={40}
-                  loop
-                ></Typed>
+                <TypeAnimation
+                  sequence={["Developer", 1000, "Designer", 1000]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                />
               </h2>
               <p className={`${styles.heroSubText} text-gray-300`}>
                 I currently working on MERN stack web development,{" "}

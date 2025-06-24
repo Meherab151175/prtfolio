@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { styles } from "../styles.js";
-import { navLinks } from "../constants/index.js";
-import menu from "../assets/menu.svg";
-import close from "../assets/close.svg";
 import { Link } from "react-router-dom";
+import close from "../assets/close.svg";
+import menu from "../assets/menu.svg";
+import { navLinks } from "../constants/index.js";
+import { styles } from "../styles.js";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 bg-secondary border-b-2 border-neutral z-50`}
     >
-      <div className="w-full flex justify-between items-center mx-auto">
+      <div className="w-full py-20 px-20 flex justify-between items-center mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
